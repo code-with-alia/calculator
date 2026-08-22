@@ -4,7 +4,7 @@ A simple and responsive calculator built with **HTML, CSS, and JavaScript**. It 
 
 ## 🚀 Live Demo
 
-🔗 [View Live Demo](YOUR-LIVE-DEMO-LINK)
+🔗 [View Live Demo](https://code-with-alia.github.io/calculator/)
 
 ## ✨ Features
 
