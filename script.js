@@ -1,7 +1,6 @@
 (function () {
   "use strict";
  
-  //make variable//
   const expressionEl = document.getElementById("expression");
   const resultEl = document.getElementById("result");
   const keysEl = document.getElementById("keys");
@@ -15,18 +14,16 @@
     expressionEl.textContent = expression ? formatForDisplay(expression) : "\u00A0";
   }
  
-  //make function for replace expression
   function formatForDisplay(expr) {
     return expr
       .replace(/\*/g, "×")
       .replace(/\//g, "÷");
   }
-   //make a function for checking ch is no or digit
+ 
   function isDigit(ch) {
     return ch >= "0" && ch <= "9";
   }
  
-  
   function lastChar() {
     return expression.length ? expression[expression.length - 1] : "";
   }
